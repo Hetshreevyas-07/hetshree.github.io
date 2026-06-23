@@ -67,7 +67,6 @@
     section { position: relative; padding: 48px 16px; }
     .wrap { width: min(100%, var(--max)); margin-inline: auto; }
 
-    /* AURORA */
     .aurora, .particles {
       position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden;
     }
@@ -120,7 +119,6 @@
       pointer-events: none; opacity: .8;
     }
 
-    /* NAV */
     .nav {
       position: fixed; left: 10px; right: 10px; bottom: 10px; z-index: 50;
       border-radius: 20px; padding: 8px 10px;
@@ -168,7 +166,6 @@
     }
     .back-top.show { opacity: 1; pointer-events: auto; }
 
-    /* BUTTONS */
     .btn {
       min-height: 48px; display: inline-flex; align-items: center; justify-content: center;
       gap: 10px; padding: 12px 20px; border-radius: 16px; border: 1px solid var(--border);
@@ -184,11 +181,9 @@
       box-shadow: var(--shadow-glow);
     }
 
-    /* REVEAL */
     .reveal { opacity: 0; transform: translateY(28px); transition: opacity .55s ease, transform .55s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
 
-    /* HERO */
     .hero {
       min-height: 100svh; display: grid; align-items: center;
       padding: 24px 16px 90px;
@@ -239,7 +234,6 @@
       color: var(--teal); padding: 6px 13px; border-radius: 999px; font-weight: 700; font-size: 12px;
     }
 
-    /* PORTRAIT */
     .portrait {
       width: min(200px, 65vw); aspect-ratio: 1; border-radius: 50%; position: relative;
       display: grid; place-items: center; margin: 0 auto;
@@ -265,7 +259,6 @@
       50% { transform: translateY(-10px); }
     }
 
-    /* STATS */
     .stats-grid {
       display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;
     }
@@ -277,7 +270,6 @@
     .stat span { font-size: 13px; font-weight: 600; color: var(--muted); margin-top: 6px; display: block; }
     .stat:hover { transform: translateY(-6px); box-shadow: var(--shadow-glow); border-color: var(--border-hover); }
 
-    /* SECTION HEAD */
     .eyebrow {
       display: inline-flex; align-items: center; gap: 8px; font-size: 12px;
       font-weight: 700; text-transform: uppercase; letter-spacing: .12em;
@@ -289,7 +281,6 @@
     }
     .section-head p { color: var(--muted); margin-top: 8px; max-width: 580px; font-size: 15px; }
 
-    /* ABOUT */
     .about-layout { display: grid; gap: 18px; }
     .glass-card {
       border-radius: 20px; padding: 20px; transition: .28s ease;
@@ -307,7 +298,6 @@
     .about-copy p:last-child { margin-bottom: 0; }
     .about-copy strong { color: var(--text); }
 
-    /* SKILLS */
     .skills-grid { display: grid; gap: 16px; }
     .skill-card { border-radius: 20px; padding: 20px; }
     .skill-title { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
@@ -324,7 +314,6 @@
       transition: width 1.1s cubic-bezier(.4,0,.2,1);
     }
 
-    /* PROJECTS */
     .projects-grid { display: grid; gap: 18px; }
     .project-card {
       border-radius: 20px; overflow: hidden;
@@ -358,7 +347,6 @@
     }
     .text-link:hover { color: var(--cyan); gap: 10px; }
 
-    /* TIMELINE */
     .timeline { position: relative; padding-left: 0; }
     .timeline-item {
       display: grid; grid-template-columns: 50px 1fr; gap: 14px; margin-bottom: 22px;
@@ -377,7 +365,6 @@
     }
     .timeline-card p { color: var(--muted); font-size: 14px; line-height: 1.65; }
 
-    /* CODING */
     .coding-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 14px; margin-bottom: 22px; }
     .journey-grid { display: grid; gap: 14px; }
     .journey-card {
@@ -394,7 +381,6 @@
     .quote { border-radius: 18px; padding: 24px; font-style: italic; }
     .quote p { color: var(--muted); font-size: 15px; line-height: 1.75; }
 
-    /* LEADERSHIP */
     .lead-grid { display: grid; gap: 18px; }
     .lead-card { border-radius: 20px; padding: 20px; }
     .lead-head { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
@@ -406,12 +392,10 @@
     }
     .lead-card p { color: var(--muted); font-size: 14px; margin-bottom: 12px; line-height: 1.65; }
 
-    /* CERTIFICATIONS */
     .card-grid { display: grid; gap: 16px; }
     .card-grid .glass-card h3 { font-size: 1rem; margin-bottom: 8px; }
     .card-grid .glass-card p { color: var(--muted); font-size: 14px; }
 
-    /* RESUME */
     .resume-grid { display: grid; gap: 18px; }
     .resume-card { border-radius: 20px; padding: 24px; }
     .resume-icon {
@@ -428,7 +412,6 @@
     .resume-card h2 { font-size: clamp(1.4rem, 5vw, 2.2rem); margin-bottom: 12px; }
     .resume-card .eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
 
-    /* CONTACT */
     .contact-links {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -447,7 +430,6 @@
     .contact-card strong { font-size: 14px; font-weight: 600; }
     .contact-card > span > span { font-size: 11px; color: var(--muted); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-    /* FOOTER */
     footer {
       padding: 40px 16px 96px; text-align: center; color: var(--muted);
       background: linear-gradient(to bottom, transparent, rgba(10,144,144,.04));
@@ -462,14 +444,10 @@
     }
     .footer-socials a:hover { background: rgba(10,144,144,.16); border-color: var(--border-hover); }
 
-    /* SCROLLBAR */
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: #f0fbfb; }
     ::-webkit-scrollbar-thumb { background: linear-gradient(to bottom, #0a9090, #c8eeee); border-radius: 20px; }
 
-    /* ── RESPONSIVE ─────────────────────────────────── */
-
-    /* Extra small phones (<400px) */
     @media (max-width: 399px) {
       h1 { font-size: 2.4rem; }
       .hero { padding: 18px 12px 88px; }
@@ -481,18 +459,15 @@
       .contact-card > span > span { white-space: normal; }
     }
 
-    /* Phones (400–639px) — default (mobile-first base above handles this) */
     @media (min-width: 400px) and (max-width: 639px) {
       .contact-links { grid-template-columns: 1fr 1fr; }
     }
 
-    /* Small tablet and up */
     @media (min-width: 540px) {
       .stats-grid { grid-template-columns: repeat(4, 1fr); }
       .quick-grid { grid-template-columns: repeat(4, 1fr); }
     }
 
-    /* Tablet and up */
     @media (min-width: 640px) {
       section { padding: 72px 24px; }
       .skills-grid { grid-template-columns: repeat(2, 1fr); }
@@ -500,7 +475,6 @@
       .lead-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
-    /* Desktop nav + wider layouts */
     @media (min-width: 760px) {
       section { padding: 92px 28px; }
       .nav {
@@ -524,7 +498,6 @@
       .contact-links { grid-template-columns: repeat(2, 1fr); }
     }
 
-    /* Wide desktop */
     @media (min-width: 1024px) {
       .projects-grid { grid-template-columns: repeat(3, 1fr); }
       .journey-grid { grid-template-columns: repeat(3, 1fr); }
@@ -559,7 +532,6 @@
 
   <div class="cursor-glow" id="cursorGlow"></div>
 
-  <!-- NAV -->
   <nav class="nav glass" id="nav">
     <a class="brand" href="#hero" aria-label="Hetshree Vyas">HV</a>
     <div class="nav-links glass" id="navLinks">
@@ -580,7 +552,6 @@
     </div>
   </nav>
 
-  <!-- HERO -->
   <header class="hero" id="hero">
     <div class="hero-inner wrap">
       <div class="hero-card glass reveal">
@@ -609,7 +580,6 @@
     </div>
   </header>
 
-  <!-- STATS -->
   <section aria-label="Portfolio stats">
     <div class="wrap stats-grid">
       <div class="stat glass reveal"><strong data-count="5">0</strong><span>Projects Built</span></div>
@@ -619,7 +589,6 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section id="about">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -645,22 +614,18 @@
           </div>
         </div>
         <div class="glass-card glass about-copy reveal">
-           <p>I'm <strong>Hetshree Vyas</strong> — an AI and Python developer focused on building things that actually work in the real world. I build with OpenCV, Machine Learning, and APIs and I'm currently <strong>Core Team Lead at CodeNeuraX</strong>.</p>
+          <p>I'm <strong>Hetshree Vyas</strong> — an AI and Python developer who enjoys turning ideas into things that actually run. My focus is on computer vision, machine learning, and API-driven automation. Right now I'm serving as <strong>Core Team Lead at CodeNeuraX</strong>, where I manage projects and help the team move from concept to working code.</p>
 
-          <p>I'm drawn to the intersection of vision, voice, and intelligence from gesture-controlled systems to automated assistants. I don't just study AI I ship it.</p>
+          <p>I got into AI because I wanted to build things that feel alive — gesture-controlled interfaces, voice assistants, systems that respond to the physical world. That curiosity hasn't gone away; if anything it's gotten more specific. I now know I want to work at the edge where perception meets logic.</p>
 
-          <p>My work sits between practical data science, automation, and product-minded engineering: clear logic, useful interfaces, and systems that feel smooth to use.</p>
+          <p>My day-to-day mixes data science fundamentals with product thinking. I care about code that is easy to follow, UIs that don't require a manual, and pipelines that don't break quietly in production.</p>
 
-          <p>To be honest I don't know what industries are looking for but I have learnt this and looking for perfect industrial experience so I can uplift my self. </p>
-
-          <p> I don't know whatever I learnt how this gonna be used in industry but i also know that will be 100% different. But I'll give mt best that's my promise. NOw don't read further just contact me!!</p>
-
+          <p>I'm actively looking for an internship where I can trade what I know for what industry experience teaches — real deadlines, real data, real feedback. If that sounds like a fit, scroll down and reach out.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SKILLS -->
   <section id="skills">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -709,7 +674,6 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
   <section id="projects">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -839,7 +803,6 @@
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
   <section id="experience">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -868,7 +831,6 @@
     </div>
   </section>
 
-  <!-- CODING JOURNEY -->
   <section id="coding">
     <div class="wrap">
       <div class="coding-top">
@@ -909,7 +871,6 @@
     </div>
   </section>
 
-  <!-- LEADERSHIP -->
   <section id="leadership">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -956,7 +917,6 @@
     </div>
   </section>
 
-  <!-- CERTIFICATIONS -->
   <section id="certifications">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -977,7 +937,6 @@
     </div>
   </section>
 
-  <!-- RESUME -->
   <section id="resume">
     <div class="wrap resume-grid">
       <article class="resume-card glass reveal">
@@ -1004,7 +963,6 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact">
     <div class="wrap">
       <div class="section-head glass reveal">
@@ -1033,7 +991,6 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <div class="footer-logo">HET<span>SHREE</span></div>
     <p style="margin-top:6px;font-size:14px;">© 2026 Hetshree Vyas · AI Developer · Data Science</p>
